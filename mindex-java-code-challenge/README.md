@@ -82,5 +82,8 @@ Create a new type, Compensation. A Compensation has the following fields: employ
 two new Compensation REST endpoints. One to create and one to read by employeeId. These should persist and query the 
 Compensation from the persistence layer.
 
+Developer notes - Created the ability for any employee to have multiple compensations and the read by employeeId 
+rest call will return the compensation with the most recent effective date before todays date. 
+
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
